@@ -7,6 +7,8 @@
   "private": true,
   "dependencies": {
     "@sap/cds": "^5",
+    "@sap/xsenv": "^3.1.0",
+    "@sap/xssec": "^3.2.2",
     "express": "^4",
     "hdb": "^0.18.3",
     "passport": "^0.4.1"
@@ -54,10 +56,13 @@
       "uaa": {
         "kind": "xsuaa",
         "credentials": {}
-    }
+      }
     },
     "hana": {
       "deploy-format": "hdbtable"
     }
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
