@@ -7,6 +7,7 @@
   "private": true,
   "dependencies": {
     "@sap/cds": "^5",
+    "@sap/cds-runtime": "^3.1.2",
     "@sap/xsenv": "^3.1.0",
     "@sap/xssec": "^3.2.2",
     "express": "^4",
